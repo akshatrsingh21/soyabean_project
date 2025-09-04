@@ -137,18 +137,18 @@ Built with ❤️ for the agricultural community
 🎨 Project Structure
 
 soybean-analyzer/
-├── 📁 data/                 # Training datasets
-├── 📁 models/               # Trained ML models
-├── 📁 src/                  # Source code
-│   ├── gui.py              # PyQt5 interface
-│   ├── ml_model.py         # Machine learning core
-│   └── image_processor.py  # OpenCV operations
-├── 📁 docs/                # Documentation
-├── requirements.txt        # Dependencies
-└── README.md              # This file
-
+├── data/ # Training datasets
+├── models/ # Trained ML models
+├── src/ # Source code
+│ ├── gui.py # PyQt5 interface
+│ ├── ml_model.py # Machine learning core
+│ └── image_processor.py # OpenCV operations
+├── docs/ # Documentation
+├── requirements.txt # Dependencies
+└── README.md # This file
 
 🌟 Why This Project Matters
 This tool bridges the gap between traditional farming and modern technology, making AI-powered plant analysis accessible to everyone in the agricultural sector. By automating variety identification, we help farmers save time and make better decisions about crop management.
+
 
 
