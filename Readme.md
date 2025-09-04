@@ -151,3 +151,4 @@ soybean-analyzer/
 🌟 Why This Project Matters
 This tool bridges the gap between traditional farming and modern technology, making AI-powered plant analysis accessible to everyone in the agricultural sector. By automating variety identification, we help farmers save time and make better decisions about crop management.
 
+
