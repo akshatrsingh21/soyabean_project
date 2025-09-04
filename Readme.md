@@ -66,14 +66,20 @@ iii. Health assessment
 Care recommendations
 
 📦 Installation
+
 # Clone the repository
+```
 git clone https://github.com/akshatrsingh21/soybean-analyzer.git
+```
 
 # Install dependencies
+```
 pip install -r requirements.txt
-
+```
 # Run the application
+```
 python soybean_analyzer.py
+```
 
 🎯 Key Features
 1. User-Friendly Interface - Drag and drop image upload
@@ -90,6 +96,7 @@ python soybean_analyzer.py
 📊 Sample Results
 
 🌱 SOYBEAN ANALYSIS REPORT
+```
 ========================================
 📁 Image: soybean_field.jpg
 📏 Size: 4000x3000 pixels
@@ -109,7 +116,7 @@ python soybean_analyzer.py
    • Continue current care routine
    • Monitor for harvest readiness
 🤝 Contributing
-
+```
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -135,20 +142,22 @@ Built with ❤️ for the agricultural community
 
 
 🎨 Project Structure
-
-.
-├── public/                # Public assets (images, data, etc.)
-├── src/                   # Source code
-│   ├── components/        # React components
-│   ├── assets/            # Images and other assets
-│   ├── App.jsx            # Main application file
-│   └── index.jsx          # Entry point
-├── README.md              # Project documentation
-├── package.json           # Project metadata and dependencies
-└── vite.config.js         # Vite configuration
+```
+soybean-analyzer/
+├── data/ # Training datasets
+├── models/ # Trained ML models
+├── src/ # Source code
+│ ├── gui.py # PyQt5 interface
+│ ├── ml_model.py # Machine learning core
+│ └── image_processor.py # OpenCV operations
+├── docs/ # Documentation
+├── requirements.txt # Dependencies
+└── README.md # This file
+```
 
 🌟 Why This Project Matters
 This tool bridges the gap between traditional farming and modern technology, making AI-powered plant analysis accessible to everyone in the agricultural sector. By automating variety identification, we help farmers save time and make better decisions about crop management.
+
 
 
 
