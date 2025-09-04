@@ -136,19 +136,20 @@ Built with ❤️ for the agricultural community
 
 🎨 Project Structure
 
-'''soybean-analyzer/
-├── data/ # Training datasets
-├── models/ # Trained ML models
-├── src/ # Source code
-│ ├── gui.py # PyQt5 interface
-│ ├── ml_model.py # Machine learning core
-│ └── image_processor.py # OpenCV operations
-├── docs/ # Documentation
-├── requirements.txt # Dependencies
-└── README.md # This file'''
+.
+├── public/                # Public assets (images, data, etc.)
+├── src/                   # Source code
+│   ├── components/        # React components
+│   ├── assets/            # Images and other assets
+│   ├── App.jsx            # Main application file
+│   └── index.jsx          # Entry point
+├── README.md              # Project documentation
+├── package.json           # Project metadata and dependencies
+└── vite.config.js         # Vite configuration
 
 🌟 Why This Project Matters
 This tool bridges the gap between traditional farming and modern technology, making AI-powered plant analysis accessible to everyone in the agricultural sector. By automating variety identification, we help farmers save time and make better decisions about crop management.
+
 
 
 
